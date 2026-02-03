@@ -12,3 +12,10 @@ def calculadora(num1, num2, operacao):
             return "Erro: divisão por zero"
     else:                    # Operação inválida
         return 0
+
+# Chamadas de teste
+print(calculadora(10, 5, 1))  # → 15
+print(calculadora(10, 5, 2))  # → 5
+print(calculadora(10, 5, 3))  # → 50
+print(calculadora(10, 5, 4))  # → 2.0
+print(calculadora(10, 5, 7))  # → 0
