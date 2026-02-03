@@ -1,0 +1,21 @@
+# Programa para determinar a categoria da habilitação
+# baseado nas características do veículo
+
+# Entrada de dados
+rodas = int(input("Digite a quantidade de rodas do veículo: "))
+peso = float(input("Digite o peso bruto do veículo em kg: "))
+pessoas = int(input("Digite a quantidade de pessoas no veículo: "))
+
+# Estruturas de decisão para verificar a categoria
+if rodas == 2 or rodas == 3:
+    print("Categoria A - Veículos com duas ou três rodas.")
+elif rodas == 4 and pessoas <= 8 and peso <= 3500:
+    print("Categoria B - Veículos com até 8 pessoas e até 3500 kg.")
+elif rodas >= 4 and peso > 3500 and peso <= 6000:
+    print("Categoria C - Veículos com 4 ou mais rodas e peso entre 3500 e 6000 kg.")
+elif rodas >= 4 and pessoas > 8:
+    print("Categoria D - Veículos com 4 ou mais rodas e que acomodam mais de 8 pessoas.")
+elif rodas >= 4 and peso > 6000:
+    print("Categoria E - Veículos com 4 ou mais rodas e mais de 6000 kg.")
+else:
+    print("Não foi possível determinar a categoria com os dados informados.")
