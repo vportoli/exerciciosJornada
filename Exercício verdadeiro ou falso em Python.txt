@@ -1,0 +1,62 @@
+Exercício verdadeiro ou falso em Python 
+
+1. Variável: nota = 10  
+
+Sentença: nota <= 10 
+
+Resposta = Verdadeiro 
+
+2. Variáveis: nota = 6, faltas = 4  
+
+Sentença: (nota <= 6) and (faltas <= 3) 
+
+nota <= 6 → Verdadeiro 
+
+faltas <= 3 → Falso 
+
+Resposta = Falso 
+
+3. Variáveis: convidados = 3, fumante = False  
+
+Sentença: (convidados > 4) or (fumante == True) 
+
+convidados > 4 → Falso 
+
+fumante == True → Falso 
+
+Resposta = Falso 
+
+4. Variável: dia = "qua"  
+
+Sentença: (dia == "sab") or (dia == "dom") 
+
+"qua" == "sab" → Falso 
+
+"qua" == "dom" → Falso 
+
+Resposta = Falso 
+
+5. Variável: feriado = True  
+
+Sentença: not(feriado == False) 
+
+feriado == False → Falso 
+
+not(Falso) → Verdadeiro 
+
+Resposta = Verdadeiro 
+
+6. Variáveis: dia = "ter", feriado = False  
+
+Sentença: (dia == "seg") or !(feriado == False) 
+
+(dia == "seg") → Falso 
+
+(feriado == False) → Verdadeiro → !(Verdadeiro) → Falso 
+
+Resposta = Falso 
+
+ 
+
+
+Valéria de Oliveira Porto 
